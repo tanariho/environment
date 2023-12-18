@@ -38,7 +38,7 @@ export default function Home() {
         body: JSON.stringify({ title: newTitle }),
       });
       if (!response.ok) {
-        throw new Error("投稿に失敗しました");
+        throw new Error("投稿に失敗しましたよん");
       }
       setNewTitle("");
       fetchPosts();
