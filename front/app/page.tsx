@@ -65,8 +65,10 @@ export default function Home() {
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
+          
         ))}
       </ul>
     </main>
   );
 }
+console.log(process.env.NEXT_PUBLIC_API_URL);
