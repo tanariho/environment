@@ -83,5 +83,5 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  config.hosts << "https://environment-ud2f.onrender.com"
+  config.hosts << "environment-ud2f.onrender.com"
 end
